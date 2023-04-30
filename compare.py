@@ -9,9 +9,20 @@ def calc_log_loss():
     pass
 
 # real files/labels.txt and store it
+y_true = dict()
+with open(r'files\labels.txt', 'r') as f:
+    lines = f.readlines()
+    p = 0
+    for l in lines:
+        i = l.index(')')
+        y_true[p] = list(map(int, l[i+2:-1].split(' ')))
+        p += 1
+print(y_true)
 
-# read detections/detr_det.txt
+# call detections/detr_det.py
 
-# read detections/yolov5_det.txt
 
-# read detections/yolov8_det.txt
+# call detections/yolov5_det.py
+
+
+# call detections/yolov8_det.py
