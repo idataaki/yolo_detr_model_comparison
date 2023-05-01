@@ -5,8 +5,8 @@ import requests
 import matplotlib.pyplot as plt
 # %config InlineBackend.figure_format = 'retina'
 
-import ipywidgets as widgets
-from IPython.display import display, clear_output
+# import ipywidgets as widgets
+# from IPython.display import display, clear_output
 
 import torch
 from torch import nn
