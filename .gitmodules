@@ -1,3 +1,9 @@
 [submodule "detr"]
 	path = detr
 	url = https://github.com/facebookresearch/detr.git
+[submodule "yolov5"]
+	path = yolov5
+	url = https://github.com/ultralytics/yolov5.git
+[submodule "ultralytics"]
+	path = ultralytics
+	url = https://github.com/ultralytics/ultralytics.git
