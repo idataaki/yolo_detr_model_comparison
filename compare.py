@@ -8,7 +8,7 @@ def calc_log_loss():
     # get log loss
     pass
 
-# real files/labels.txt and store it
+# read files/labels.txt and store it
 
 # read detections/detr_det.txt
 
